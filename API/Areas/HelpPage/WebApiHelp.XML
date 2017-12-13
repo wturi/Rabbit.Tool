@@ -491,18 +491,18 @@
             保存地址
             </summary>
         </member>
-        <member name="M:API.Controllers.ImagesController.OneWechatQR(System.Int32)">
+        <member name="M:API.Controllers.ImagesController.WechatQROfDoor(System.Int32)">
             <summary>
             门二维码
             </summary>
-            <param name="doorId">门id</param>
+            <param name="id">门id</param>
             <returns></returns>
         </member>
-        <member name="M:API.Controllers.ImagesController.WechatQRList(System.Int32)">
+        <member name="M:API.Controllers.ImagesController.WechatQRListOfCommunity(System.Int32)">
             <summary>
             该社区所有二维码list
             </summary>
-            <param name="communityId"></param>
+            <param name="id"></param>
             <returns></returns>
         </member>
         <member name="M:API.Controllers.ImagesController.SomeWechatQR(System.String)">
@@ -513,11 +513,11 @@
             <param name="doorIds">门id</param>
             <returns></returns>
         </member>
-        <member name="M:API.Controllers.ImagesController.OneCommunity(System.Int32)">
+        <member name="M:API.Controllers.ImagesController.WechatQROfCommunity(System.Int32)">
             <summary>
             一个社区二维码
             </summary>
-            <param name="cId">社区id</param>
+            <param name="id">社区id</param>
             <returns></returns>
         </member>
         <member name="T:API.Models.ImgInfo">

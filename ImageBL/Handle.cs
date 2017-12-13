@@ -126,7 +126,10 @@ namespace ImageBL
             try
             {
                 var ModelContext = new RabbitMPEntities();
-                var doors = ModelContext.Doors.Include(nameof(Doors.CommunityEntities)).Where(item => item.IsEnable && item.CommunityId == communtiyId);
+                var doors = ModelContext.Doors
+                    .Include(nameof(Doors.CommunityEntities))
+                    .Include(nameof(Doors.DoorGroups))
+                    .Where(item => item.IsEnable && item.CommunityId == communtiyId);
                 if (doors == null) return null;
                 var dictionary = new List<object>();
                 Parallel.ForEach(doors, (item) =>

@@ -26,13 +26,13 @@ namespace API.Controllers
         /// <summary>
         /// 门二维码
         /// </summary>
-        /// <param name="doorId">门id</param>
+        /// <param name="id">门id</param>
         /// <returns></returns>
         [HttpGet]
-        public HttpResponseMessage OneWechatQR(int doorId)
+        public HttpResponseMessage WechatQROfDoor(int id)
         {
             Handle handle = new Handle();
-            var msg = handle.OneDoorImg(doorId);
+            var msg = handle.OneDoorImg(id);
             return AboutHttp.ToJson(new
             {
                 Code = msg == null ? 500 : 200,
@@ -45,13 +45,13 @@ namespace API.Controllers
         /// <summary>
         /// 该社区所有二维码list
         /// </summary>
-        /// <param name="communityId"></param>
+        /// <param name="id"></param>
         /// <returns></returns>
         [HttpGet]
-        public HttpResponseMessage WechatQRList(int communityId)
+        public HttpResponseMessage WechatQRListOfCommunity(int id)
         {
             Handle handle = new Handle();
-            var msg = handle.ParallelDoorImgList(communityId);
+            var msg = handle.ParallelDoorImgList(id);
             return AboutHttp.ToJson(new
             {
                 Code = msg == null ? 500 : 200,
@@ -85,13 +85,13 @@ namespace API.Controllers
         /// <summary>
         /// 一个社区二维码
         /// </summary>
-        /// <param name="cId">社区id</param>
+        /// <param name="id">社区id</param>
         /// <returns></returns>
         [HttpGet]
-        public HttpResponseMessage OneCommunity(int cId)
+        public HttpResponseMessage WechatQROfCommunity(int id)
         {
             Handle handle = new Handle();
-            var msg = handle.OneCommunity(cId);
+            var msg = handle.OneCommunity(id);
             return AboutHttp.ToJson(new
             {
                 Code = msg == null ? 500 : 200,
@@ -99,8 +99,5 @@ namespace API.Controllers
                 Data = msg
             });
         }
-
     }
-
-
 }
