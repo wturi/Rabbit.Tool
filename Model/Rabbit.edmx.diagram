@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="571ff835203141ba9f64dc77cc14efca" Name="Diagram1">
+        <EntityTypeShape EntityType="RabbitMPModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.ActivatedLogPrescriptions" Width="1.5" PointX="5.25" PointY="41.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.ActivatedLogs" Width="1.5" PointX="3" PointY="34" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.Addresses" Width="1.5" PointX="2.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.AdivserAudits" Width="1.5" PointX="13.5" PointY="46.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.AdviserAndCommunities" Width="1.5" PointX="8.25" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.Advisers" Width="1.5" PointX="10.5" PointY="45.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.Announcements" Width="1.5" PointX="12.75" PointY="18.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.ARInvitationCodes" Width="1.5" PointX="8.25" PointY="33.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.AuditNotices" Width="1.5" PointX="3.75" PointY="30.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.Authentications" Width="1.5" PointX="15.75" PointY="40" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.Broadcasts" Width="1.5" PointX="17.25" PointY="35.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.Captchas" Width="1.5" PointX="4.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.CarAndCommunities" Width="1.5" PointX="6.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.Collections" Width="1.5" PointX="8.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.Commodities" Width="1.5" PointX="10.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.CommunityAdministrators" Width="1.5" PointX="12.75" PointY="26" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.CommunityEntities" Width="1.5" PointX="10.5" PointY="23.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.CommunityToRules" Width="1.5" PointX="10" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.CommunityUsers" Width="1.5" PointX="6" PointY="32" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.CommunityUserToOtherTables" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.DailyInformations" Width="1.5" PointX="0.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.DoorGroups" Width="1.5" PointX="12.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.DoorOpenLogs" Width="1.5" PointX="19.5" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.Doors" Width="1.5" PointX="15" PointY="28.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.DoorTypes" Width="1.5" PointX="12.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.DynamicContents" Width="1.5" PointX="7.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.DynamicFieIdOfCommunities" Width="1.5" PointX="10" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.EveryDayDataOfCommunities" Width="1.5" PointX="12.75" PointY="32.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.FeedBacks" Width="1.5" PointX="8.25" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.Floors" Width="1.5" PointX="0.75" PointY="35" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.FloorToDoors" Width="1.5" PointX="17.25" PointY="32.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.InformationContents" Width="1.5" PointX="2.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.InformationTypes" Width="1.5" PointX="12.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.IntegralLogs" Width="1.5" PointX="4.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.IntegralRules" Width="1.5" PointX="12.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.InvitationLogRelations" Width="1.5" PointX="15.75" PointY="50.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.InvitationLogs" Width="1.5" PointX="13.5" PointY="41" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.InvitationMessages" Width="1.5" PointX="6.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.JinshujuDatas" Width="1.5" PointX="8.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.Labels" Width="1.5" PointX="12.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.MachineMessages" Width="1.5" PointX="10.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.MachineModels" Width="1.5" PointX="15" PointY="24.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.Machines" Width="1.5" PointX="17.25" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.Materials" Width="1.5" PointX="12.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.NegotiateLogs" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.PostDetails" Width="1.5" PointX="14.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.PostReplies" Width="1.5" PointX="14.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.Posts" Width="1.5" PointX="14.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.Problems" Width="1.5" PointX="4.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.Qus" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.RedPacketRules" Width="1.5" PointX="8.25" PointY="20.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.RedPackets" Width="1.5" PointX="8.25" PointY="45.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.RedSQLs" Width="1.5" PointX="6.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.ReplyMessages" Width="1.5" PointX="8.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.Rules" Width="1.5" PointX="7.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.SettleBillRecords" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.ShopOrderLists" Width="1.5" PointX="0.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.ShopOrders" Width="1.5" PointX="10.5" PointY="50.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.Stories" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.StoryLogs" Width="1.5" PointX="5.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.StoryTypes" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.Streets" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.sysdiagrams" Width="1.5" PointX="16.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.Tactics" Width="1.5" PointX="12.75" PointY="36.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.Tokens" Width="1.5" PointX="16.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.TypeRelationships" Width="1.5" PointX="16.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.Users" Width="1.5" PointX="3.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.Villages" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.WechatAppUsers" Width="1.5" PointX="14.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.WechatQrCodes" Width="1.5" PointX="8.25" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.WechatQrStrScenes" Width="1.5" PointX="8.25" PointY="53.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.WechatUsers" Width="1.5" PointX="8.25" PointY="56.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RabbitMPModel.aaa" Width="1.5" PointX="16.75" PointY="15.75" IsExpanded="true" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_ActivatedLogPrescriptions_dbo_ActivatedLogs_ActivatedLogId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_ActivatedLogs_dbo_CommunityEntities_CommunityId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_ActivatedLogs_dbo_CommunityUsers_CommunityUserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_ActivatedLogs_dbo_Floors_FloorId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_AdivserAudits_dbo_ARInvitationCodes_ArInvitationCodeId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_AdivserAudits_dbo_WechatUsers_WechatUserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_AdviserAndCommunities_dbo_CommunityUsers_CommunityUserID" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_CommunityEntities_dbo_AdviserAndCommunities_AdviserAndCommunityID" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_Advisers_dbo_CommunityUsers_CommunityUserID" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_Advisers_dbo_WechatUsers_WechatUserID" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_Announcements_dbo_CommunityEntities_CommunityId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_ARInvitationCodes_dbo_CommunityUsers_FromCommunityUserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_CommunityUsers_dbo_AuditNotices_AuditNoticeID" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_Authentications_dbo_CommunityEntities_CommunityID" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_Authentications_dbo_CommunityUsers_CommunityUserID" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_Authentications_dbo_Users_UserID" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_Authentications_dbo_WechatUsers_WechatUserID" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_DoorOpenLogs_dbo_Broadcasts_ResponseMessageId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_CommunityAdministrators_dbo_CommunityEntities_CommunityId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_CommunityEntities_dbo_RedPacketRules_RedPacketRuleId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_CommunityEntities_dbo_WechatQrCodes_WechatQrCodeId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_CommunityUsers_dbo_CommunityEntities_CommunityId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_DoorGroups_dbo_CommunityEntities_CommunityId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_Doors_dbo_CommunityEntities_CommunityId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_EveryDayDataOfCommunities_dbo_CommunityEntities_CommunityID" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_CommunityToRules_dbo_Rules_RuleId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_CommunityUsers_dbo_Floors_FloorID" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_CommunityUsers_dbo_Users_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_DoorOpenLogs_dbo_CommunityUsers_CommunityId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_FeedBacks_dbo_CommunityUsers_CommunityUserID" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_InvitationLogs_dbo_CommunityUsers_CommunityUserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_RedPackets_dbo_CommunityUsers_CommunityUserID" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_ShopOrders_dbo_CommunityUsers_CommunityUserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_WechatQrStrScenes_dbo_CommunityUsers_CommunityUserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_WechatUsers_dbo_CommunityUsers_CommunityUserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_Doors_dbo_DoorGroups_DoorGroupId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_DoorOpenLogs_dbo_Machines_MachineId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_Doors_dbo_DoorTypes_DoorTypeId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_Doors_dbo_Floors_FloorId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_Doors_dbo_WechatQrCodes_WechatQrCodeId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_FloorToDoors_dbo_Doors_DoorId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_Machines_dbo_Doors_DoorId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_DynamicFieIdOfCommunities_dbo_DynamicContents_DynamicContentId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_FloorToDoors_dbo_Floors_FloorId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_InvitationLogRelations_dbo_InvitationLogs_InvitationLogId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_InvitationLogRelations_dbo_WechatUsers_WechatUserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_InvitationLogs_dbo_WechatUsers_WechatUserID" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_Machines_dbo_MachineModels_ModelModelId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_Streets_dbo_Qus_QuId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_ShopOrders_dbo_WechatUsers_WechatUserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_Stories_dbo_StoryTypes_StoryTypeId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_StoryLogs_dbo_Stories_StoryId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.FK_dbo_Villages_dbo_Streets_StreeId" ManuallyRouted="false" />
+        <AssociationConnector Association="RabbitMPModel.TacticToCommunities" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
